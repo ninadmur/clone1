@@ -1,6 +1,7 @@
 import AboutSection from '../components/home/about-section';
-import HomeSlider from '../components/home/home-slider';
+// import { HomeSlider } from '../components/home/HomeSlider';
 import InfoSection from '../components/home/info-section';
+
 import Banner from '../components/multiusable/banner';
 import NewsLetter from '../components/multiusable/news-letter';
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
 
       <div>
         <InfoSection />
-        <HomeSlider />
+        {/* <HomeSlider /> */}
         <AboutSection />
         <NewsLetter />
       </div>
